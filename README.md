@@ -20,11 +20,14 @@ docker rm $(docker ps)
 gcloud config list
 ```
 
+
+
 ```
 gsutil ls
 ```
 
 ```
 ipconfig
-ssh -L 8080:localhost:8080 your_local_ip -N
+ssh -L 8080:localhost:8080 172.21.192.1 -N
+
 ```
