@@ -17,5 +17,13 @@ docker rm $(docker ps)
 
 
 ```
+gcloud config list
+```
+
+```
+
+```
+
+```
 
 ```
