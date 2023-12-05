@@ -21,7 +21,7 @@ gcloud config list
 ```
 
 ```
-
+gsutil ls
 ```
 
 ```
