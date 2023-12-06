@@ -31,3 +31,11 @@ ipconfig
 ssh -L 8080:localhost:8080 172.21.192.1 -N
 
 ```
+
+```
+sudo groupadd docker
+```
+
+```
+sudo gpasswrd -a $USER docker
+```
