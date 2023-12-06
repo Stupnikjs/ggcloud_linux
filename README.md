@@ -39,3 +39,5 @@ sudo groupadd docker
 ```
 sudo gpasswrd -a $USER docker
 ```
+
+put docker-compose executable in /bin and add it in PATH var in bashrc.sh
