@@ -41,3 +41,9 @@ sudo gpasswrd -a $USER docker
 ```
 
 put docker-compose executable in /bin and add it in PATH var in bashrc.sh
+
+
+==> generate ssh keys for gcloud 
+``` 
+ssh-keygen -t rsa -f ~/.ssh/strong -C USERNAME -b 2048
+```
