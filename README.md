@@ -54,4 +54,10 @@ put docker-compose executable in /bin and add it in PATH var in bashrc.sh
 ssh-keygen -t rsa -f ~/.ssh/strong -C USERNAME -b 2048
 ```
 
+```
+python -m venv .venv 
+bash .venv/Scripts/activate
+
+```
+
 
